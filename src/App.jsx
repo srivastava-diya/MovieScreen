@@ -33,7 +33,8 @@ function App() {
             onChange={(e)=>setSearchterm(e.target.value)}
           />
           <img 
-            src={SearchIcon} 
+            src={SearchIcon}
+            alt="searchIcon"
             onClick={()=>{searchMovies(searchterm)}}
           />
         </div>  
